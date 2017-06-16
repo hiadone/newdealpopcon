@@ -14,7 +14,7 @@ shopAjax=['058W','058Y','058a','058k','058f','058i','058e','058d','058b'];
 $(document).ready(function() {
 
  
-	
+shopAjax.forEach(ShowShopEmpty);
 $('ul.slider li').css('display','block');
       $('.slider').each(function(){
 
@@ -49,7 +49,7 @@ $('ul.slider li').css('display','block');
 
               autoControlsCombine:false, // 재생시 중지버튼 활성화, 중지시 재생버튼 활성화
               pause:3000, // 자동 재생 시 각 슬라이드 별 노출 시간
-              autoStart: false, // 페이지 로드가 되면, 슬라이드의 자동시작 여부
+              autoStart: true, // 페이지 로드가 되면, 슬라이드의 자동시작 여부
               autoDirection: 'next', // 자동 재생 시에 정순, 역순(prev) 방식 설정
               autoHover: true, // 슬라이드 오버시 재생 중단 여부 (false: 오버무시) 
               autoDelay:0, // 자동 재생 전 대기 시간 설정
@@ -282,7 +282,7 @@ function ShowShop(value, index) {
 			
 			$("#foin_"+value).html(data.tag).promise().done(function(){
 
-				$("#foin_"+value).prev().children().first().show()
+				$("#foin_"+value).prev().children().first().show();
 				if(index ==shopAjax.length -1){
 						
 					 setTimeout( "reload_rg('shop_','292')", 1000);
@@ -305,6 +305,30 @@ function ShowShop(value, index) {
 		
 
 		
+    });
+}
+
+
+function ShowShopEmpty(value, index) {
+
+  //  if (index < 1) { return; }
+    $.ajax({
+        type: "GET", 
+        async: true,
+        data: "pageid="+value+"&lang=utf-8&out=json", 
+        url: "http://ad.ad4989.co.kr/cgi-bin/pelicanc.dll?impr", 
+        cache: false, 
+        dataType: "jsonp", 
+        jsonp: "jquerycallback",
+        success: function(data) 
+        {
+      
+        },
+        error: function(xhr, status, error) { ; } 
+
+    
+
+    
     });
 }
 

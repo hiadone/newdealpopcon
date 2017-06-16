@@ -2,17 +2,17 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>NEWSPOPCON</title>
+<title>NEWDEALPOPCON</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="format-detection" content="telephone=no, email=no, address=no">
 <!-- 자동 링크 적용 안되게 -->
-<meta property="og:site_name" content="NEWSPOPCON">
-<meta property="og:title" content="NEWSPOPCON">
+<meta property="og:site_name" content="NEWDEALPOPCON">
+<meta property="og:title" content="NEWDEALPOPCON">
 <meta property="og:type" content="website">
 <meta property="og:url" content=" ">
 <meta property="og:image" content=" ">
-<meta property="og:description" content="NEWSPOPCON">
-<meta name="description" content="NEWSPOPCON">
+<meta property="og:description" content="NEWDEALPOPCON">
+<meta name="description" content="NEWDEALPOPCON">
 <link rel="shortcut icon" href=" ">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=yes">
 <!--[if lt IE 9]>
@@ -41,14 +41,48 @@
 
 
 <script language = "javascript"> 
-  if (window.history && window.history.pushState) {
-    window.history.pushState('forward', null, document.location.href);
+$(document).ready(function() {
+    if (window.history && window.history.pushState) {
+        window.history.pushState('forward', null, document.location.href);
+        
+        var popped = ('state' in window.history && window.history.state !== null), initialURL = location.href;
 
-    $(window).on('popstate', function() {
-      
-      parent.top.location.replace("http://www.popapp.co.kr/tomix/md.php?MD=default");
+        $(window).bind('popstate', function (event) {
+          // Ignore inital popstate that some browsers fire on page load
+          var initialPop = !popped && location.href == initialURL
+          popped = true
+          if (initialPop) return;
+
+          pelicanCount('05WM');
+
+        });
+    }
+});
+
+function pelicanCount(value) {
+
+  //  if (index < 1) { return; }
+    $.ajax({
+        type: "GET", 
+        async: true,
+        data: "pageid="+value+"&lang=utf-8&out=json", 
+        url: "http://ad.ad4989.co.kr/cgi-bin/pelicanc.dll?impr", 
+        cache: false, 
+        dataType: "jsonp", 
+        jsonp: "jquerycallback",
+        success: function(data) 
+        {
+            parent.top.location.replace("http://tracking.performix.co.kr/aff_c?offer_id=30&aff_id=1042&aff_sub2=hi4");
+        },
+        error: function(xhr, status, error) {} 
     });
-  }
+}
+
+
+
+
+
+
 
 function autoResize(i)
 {
@@ -88,7 +122,7 @@ ul.slider li:nth-child(n+2) {display:none;}
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-88829342-3', 'auto');
+  ga('create', 'UA-88829342-5', 'auto');
   ga('send', 'pageview');
 </script> 
 
@@ -221,12 +255,13 @@ ul.slider li:nth-child(n+2) {display:none;}
         <div><h2>인기기획전 TOP6</h2></div>
         <div class="top_05" id="foin_058k" style="width:100%;">
         <?php include './include/foin_058k.php' ?>
+        
         </div>
     </div>
 </div>
 
 <div id="int-footer-copyright"> <span class="copyright"><img src="common_newdeal/image/copyright.png" alt="카피라이터"/></span>
-  <iframe src='http://script.theprimead.co.kr/winggoSetCookiePage.php?code=MzkzNw%3D%3D&_NMNCODE_=&_NMNURL_=http%3A%2F%2Fnewspopcon.com%2Fany.asp%3Ftype%3Dadpop' height='0' width='0'></iframe>
+  <iframe src='http://script.theprimead.co.kr/winggoSetCookiePage.php?code=MzkzNw%3D%3D&_NMNCODE_=&_NMNURL_=http%3A%2F%2FNEWDEALPOPCON.com%2Fany.asp%3Ftype%3Dadpop' height='0' width='0'></iframe>
   <iframe width="0" height="0" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=05Pr&out=iframe" allowTransparency = "true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" ></iframe>
 </div>
 </body>

@@ -63,15 +63,15 @@ function goLink058Y(url)
 냄새,연기 걱정NO!</a></div>
 	</div>
 	<div class="layout">
-		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237M');"><img src="http://cdn2.ad4989.co.kr:80/02_v_q/0F_mG/1487067326508.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237M');">모발 수분보호</br>
+		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237M');"><img src="http://114.108.185.138:80/02_v_q/0F_mG/1487067326508.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237M');">모발 수분보호</br>
 헤어드라이기 특가!</a></div>
 	</div>
 	<div class="layout">
-		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237N');"><img src="http://cdn3.ad4989.co.kr:80/02_v_q/0F_mG/1487067326524.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237N');">조용하고 강력한 파워</br>
+		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237N');"><img src="http://cdn2.ad4989.co.kr:80/02_v_q/0F_mG/1487067326524.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237N');">조용하고 강력한 파워</br>
 작은먼지도 문제없어!</a></div>
 	</div>
 	<div class="layout">
-		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237O');"><img src="http://211.221.160.100:80/02_v_q/0F_mG/1487067326524_1.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237O');">3D VR 초특가 등장</br>
+		<div class="thum"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237O');"><img src="http://cdn3.ad4989.co.kr:80/02_v_q/0F_mG/1487067326524_1.jpg" border="0"></div><div class="summary"><a href="javascript:goLink058Y('http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=058Y%26bannerid=237Q%26campaignid=0FmH%26poolid=001B%26vbannerid=237O');">3D VR 초특가 등장</br>
 가격보고 깜짝놀라!!</a></div>
 	</div>
 </div>

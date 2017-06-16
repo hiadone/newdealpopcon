@@ -295,12 +295,20 @@
 
 /** RESET AND LAYOUT
 ===================================*/
+.slide  {
+	margin:8px 0 0 0;
+}
+
 .slide > .bx-wrapper {
 	position: relative;
-	margin:8px 0 0 0;
+	
 	*zoom: 1;
 	padding:0;
 	
+}
+
+.slide ul li div.thum a img {
+	width:100%;	
 }
 
 /*============*/

